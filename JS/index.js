@@ -8,7 +8,7 @@ document.querySelector('#name').textContent= myName ;
 let yearnow= '2022'
 document.querySelector('#year').textContent = yearnow ;
 // pic 
-let myPicture = 'images/ana.jpg';
+let myPicture = 'images/ana.JPG';
 document.querySelector('img').setAttribute('src', myPicture);
 
 //modifycation date and time 
