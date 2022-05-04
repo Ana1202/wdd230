@@ -24,7 +24,7 @@ main {
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax ( 320px, 1fr));
+    grid-template-columns: 1fr;
     padding: 2rem;
     border:2px;
     border-color: aliceblue;
