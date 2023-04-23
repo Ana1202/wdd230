@@ -1,0 +1,85 @@
+/* HTML Selectors */
+body {
+    font-family: 'Kalam', cursive;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffcccc;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+header, main, footer{
+    max-width: 700px;
+    margin:0 auto;
+}
+
+header {
+    margin:1rem auto;
+    text-align: left;
+    background-color:#ffcccc;
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    min-width: 120px;
+    text-align: right;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+main ul {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin-left:200px;
+    margin-right: 200px;
+    border: 2px solid #ffcccc;
+}
+ul li{
+    padding: 1rem;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #ffcccc;
+    color: black;
+}
+
+/* Class Selectors */
+.active {
+    background-color: white;
+    color: black;
+}
+/* ID Selectors */
+
+/* Media Queries */
+@media only screen and (min-width: 32.5em) {
+    ul {
+        flex-direction: row;
+    }
+    
+    ul li:first-child {
+        display: none;
+    }
+
+    ul li {
+        margin: 0 10px;
+    }
+}
