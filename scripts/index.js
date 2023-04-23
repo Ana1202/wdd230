@@ -5,7 +5,7 @@ let myName = 'Ana Nayeli Sanchez Banuelos';
 //place the value of the name variable into the HTML file
 document.querySelector('#name').textContent= myName ;
 //declering year 
-let yearnow= '2022'
+let yearnow= '2023'
 document.querySelector('#year').textContent = yearnow ;
 // pic 
 let myPicture = 'images/anasanchez.jpg';
