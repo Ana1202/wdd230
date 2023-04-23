@@ -13,4 +13,4 @@ document.querySelector('img').setAttribute('src', myPicture);
 
 //modifycation date and time 
 let oLastModif = new Date(document.lastModified);
-document.querySelector('#datetime').textContent= oLastModif ;
+document.querySelector('#mydatetime').textContent= oLastModif ;
