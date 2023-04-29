@@ -51,6 +51,7 @@ main ul {
 }
 ul li{
     padding: 1rem;
+    list-style-type: none;
 }
 ul li a {
     color: white;
