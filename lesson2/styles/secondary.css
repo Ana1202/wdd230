@@ -12,12 +12,15 @@ footer {
     color: black;
     padding: 5px;
     text-align: center;
+    border-radius: 25px;
 }
 header {
     margin:1rem auto;
     text-align: center;
     background-color: #ffcccc ;
     align-items: center;
+    padding: 2rem;
+    border-radius: 25px;
 }
 
 main {
@@ -32,11 +35,16 @@ main {
     border-color: #ad9e9e;
 }
 
+h3{ background-color: #ad9e9e;
+    padding: 3px 8px;
+    border-radius:8px;}
+
 article{
     background-color: #e7e4e4;
     align-items: center;
     padding: 2rem;
     border-color:aliceblue;
+    border-radius: 25px;
 
 }
 
