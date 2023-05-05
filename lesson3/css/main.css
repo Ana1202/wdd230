@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display&display=swap');
+
+header, main, footer, nav {max-width: 960px;
+margin:0 auto;}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+p {
+    font-family: 'Alice', serif;;
+}
+
+header, footer {
+    background-color: #034363;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+nav {
+    background-color: #FFB703;
+    margin: 0 auto;
+    max-width: 860px;
+    text-align: center;
+    box-shadow: 5px 10px #F88B0E;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li a{ 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: large;   
+}
+main {
+    display:grid;
+    grid-template-columns: 1fr;
+    font: size 0.8re;
+}
+main article{
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+    background-color: #8ECAE6;
+}
+main picture { 
+    display: none;
+    margin: 1rem;
+}
+#primary {
+    background-color: #034363;
+}
+#secondary {
+    background-color: #FFB703;
+    }
+#accent-one{ 
+    background-color: #F88B0E;
+}
+#accent-two{ 
+    background-color: #8ECAE6;
+    margin: 1rem;
+    border: 1px solid rgbs(0,0,0,0.2);}
+
+
+/*medum view */
+@media only screen and (min-width: 37.5em) {
+    h1{
+        font-size: 1.5rem;
+    }
+    nav ul {display:flex;}
+    nav ul li{ flex: 1 1 auto;}
+    nav a { font-size: 1rem;}
+    nav a:hover{ --d:75%;}
+    main{ grid-template-columns: 1fr 1fr;}
+    article:nth-child(3){ grid-column: span 2;}
+    main picture{ display: block;}
+    main picture img{ width: 100%;
+                    height: auto;
+                    border: 1px solid #bbb;}
+}
+/* max view*/
+@media only screen and ( min-width: 60em){
+    h1{ font-size: 2rem;}
+    nav a{ font-size: 1.1rem;}
+    main {grid-template-columns: 1fr 1fr 1fr;}
+    article:nth-child(3){grid-column: span 1;}
+}
