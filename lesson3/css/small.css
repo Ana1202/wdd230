@@ -50,7 +50,7 @@ nav ul li a{
 main {
     display:grid;
     grid-template-columns: 1fr;
-    font: size 0.8re;
+    font-size:  0.8re;
 }
 main article{
     margin: 1rem;
@@ -74,5 +74,5 @@ main picture {
 #accent-two{ 
     background-color: #8ECAE6;
     margin: 1rem;
-    border: 1px solid rgbs(0,0,0,0.2);}
+    border: 1px solid rgbs(0,0,0.2);}
 
