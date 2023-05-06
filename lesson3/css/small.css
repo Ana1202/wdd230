@@ -50,7 +50,7 @@ nav ul li a{
 main {
     display:grid;
     grid-template-columns: 1fr;
-    font-size:  1rem;
+    font-size:  2rem;
 }
 main article{
     margin: 1rem;
