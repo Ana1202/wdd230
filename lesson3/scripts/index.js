@@ -13,4 +13,4 @@ document.querySelector('#year').textContent = yearnow ;
 
 //modifycation date and time 
 let oLastModif = new Date(document.lastModified);
-document.querySelector('#mydatetime').textContent= oLastModif ;
+document.getElementById('mydatetime').innerHTML= oLastModif;
