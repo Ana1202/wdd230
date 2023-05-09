@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display&display=swap');
 
-header, main, footer, nav {max-width: 960px;
+header, main, footer, nav {max-width: 1080px;
 margin:0 auto;}
 
 h1, h2, h3 {
