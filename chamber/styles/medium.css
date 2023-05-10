@@ -1,0 +1,130 @@
+/* nav button will stay the same however the layout of the main content will be different*/ 
+@media only screen and ( min-width: 35rem){
+    .content { 
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-gap:0.5em;
+    }
+    .hero{
+        width: auto;
+        height: 150px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: span 2;
+        grid-row: 1;
+    }
+    .news{
+        width: auto;
+        height: 100px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-row: 2;
+        grid-column: span 2;
+    }
+    .spotlight{
+        width: auto;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-row:3;
+        grid-column: span 2;
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2;
+        grid-gap: 1rem;
+    }
+    .join{ 
+        width: auto;
+        height: 100px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-row: 4;
+    }
+    .event{
+        width: auto;
+        height: 100px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-row: 5;
+        grid-column: 1;
+    }
+    .weather{
+        width: auto;
+        height: 100px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-row: 5;
+        grid-column: 2;
+    }
+    .box3{ 
+        display: none;
+    }
+    footer {
+        margin-top: 1rem;
+    }
+    footer{
+        background-color: #034363;
+        color: white;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 80% 20%;
+        justify-content: center;
+        padding: 10px;
+    }
+    footer img{
+        width: 150px;
+        height: auto;
+    }
+    .footlogo{ 
+        display: grid;
+        grid-template-columns: 40% 1fr 1fr ;
+        padding-top:  10px;
+    }
+    picture{
+        grid-template-columns: 1;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        align-items: flex-start;
+    }
+    .contact2{ 
+        grid-column: 3;
+        align-items: center;
+        padding: 2rem;
+        color: white;
+    }
+    .contact2 a:hover{
+        color: #FFB703;
+        text-decoration: none;
+    }
+    .last-line{
+        grid-row: 2;
+        grid-column: 1 / span 3;
+        display: flex;
+        flex-flow: row;
+        padding-left: 4rem;
+        text-align: center;
+        font-size: small;
+        border-top: 1px solid rgba(0,0,0,0.5);
+    }
+}
