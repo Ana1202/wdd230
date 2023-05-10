@@ -24,3 +24,6 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 //modifycation date and time 
 let oLastModif = new Date(document.lastModified);
 document.querySelector('#lastModified').textContent= oLastModif ;
+
+let yearnow= '2023'
+document.querySelector('#year').textContent = yearnow ;
