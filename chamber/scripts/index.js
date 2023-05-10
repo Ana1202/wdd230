@@ -21,6 +21,6 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 // footer last modified
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
+//modifycation date and time 
+let oLastModif = new Date(document.lastModified);
+document.querySelector('#lastModified').textContent= oLastModif ;
