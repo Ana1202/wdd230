@@ -22,8 +22,9 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 // footer last modified
 //modifycation date and time 
+let yearnow= '2023'
+document.querySelector('#year').textContent = yearnow;
+
 let oLastModif = new Date(document.lastModified);
 document.querySelector('#lastModified').textContent= oLastModif ;
-
-let yearnow= '2023'
-document.querySelector('#year').textContent = yearnow ;
+//modifycation date and time 

@@ -1,35 +1,165 @@
 /* max view*/ 
 /*nav button is gone and the full menu is displayed*/ 
 @media only screen and ( min-width: 60rem){
-    
-    nav ul #primarynav {
+    header {
+        background-color: #034363;
+        color: white;
+        text-align: center;
         display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        display:grid;
+        grid-template-columns: 40% 40% 20%;
+        grid-template-rows: 80% 20%;
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
         margin-left: 2vw;
-        border-left: 1px solid rgba(0, 0, 0, 0.03)
+        border-left: 1px solid rgba(0, 0, 0, 0.03);
+        grid-column: 2;
     }
     nav ul li a{
         border:none;
         border-right: 1px solid rgba(0, 0, 0,0.3);
         padding: .5rem  1rem;
       }
-    footer{
-        display: grid;
-        grid-template-columns: 60% 40%;
-        grid-template-rows: 80% 20%;
+    button{
+        display: none;
     }
-    .last-line{
-        grid-column: 1 / 4;
-        grid-row: 2 / 3;
-        text-align: center;
-        font-size: small;
-    }
-    .footlogo{
-        align-items: center;
-        text-align: left;
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
+    .social {
         display: flex;
         flex-direction: row;
+        margin: .5rem;
+        grid-column: 3;
+        grid-row: 1;
+        align-items: center;
+        background-color: #FFB703;
+    }
+    .content { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap:0.5em;
+    }
+    .event{
+        width: auto;
+        height: 250px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .hero{
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .spotlight{
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3;
+        grid-gap: 1rem;
+    }
+    .box1{
+        grid-row: 1;
+        border: 1px solid black;
+    }
+    .box2{
+        grid-row: 2;
+        border: 1px solid black;
+    }
+    .box3{
+        display: block;
+        grid-row: 3;
+        border: 1px solid black;
+    }
+    .weather{
+        width: auto;
+        height: 250px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .join{
+        display: block;
+        width: 250px;
+        height: auto;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .news{
+        width: auto;
+        height: 250px;
+        border-radius: 10px;
+        background-color: #8ECAE6;
+        padding: 1rem;
+        margin: 0.5rem 0.5rem 0 0 ;
+        grid-column: 2 span 2;
+        grid-row: 3;
+    }
+    footer{
+        background-color: #034363;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-flow: row;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 80% 20%;
+    }
+    img{
+        align-items: right;
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        flex-direction: row;
+    }
+    .contact{
+        align-items: left;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .contact2{
+        align-items: center;
+        text-align: left;
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .last-line{
+        grid-column: 1 span 4;
+        grid-row: 2 ;
+        text-align: center;
+        font-size: small;
     }
     #lastModified {
         display: inline;
