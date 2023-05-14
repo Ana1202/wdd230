@@ -9,8 +9,8 @@ document.querySelector('#domain').textContent= siteDomain;
 
 //declering year 
 let yearnow= '2023'
-document.getElementById('year').textContent = yearnow ;
+document.getElementById('currentyear').textContent = yearnow ;
 
 //modifycation date and time 
 let oLastModif = new Date(document.lastModified);
-document.getElementById('mydatetime').innerHTML= oLastModif;
+document.getElementById('moddatetime').innerHTML= oLastModif;
