@@ -52,7 +52,7 @@ main {
     grid-template-columns: 1fr;
     font-size:  1.5rem;
 }
-main article{
+main section{
     margin: 1rem;
     border: 1px solid rgba(0,0,0,0.2);
     padding: 1rem;
