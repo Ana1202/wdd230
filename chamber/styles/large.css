@@ -79,7 +79,7 @@
         display: flex;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 3;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 1rem;
     }
     .box1{
@@ -123,7 +123,7 @@
         background-color: #8ECAE6;
         padding: 1rem;
         margin: 0.5rem 0.5rem 0 0 ;
-        grid-column: 2 span 2;
+        grid-column: 2 / 4;
         grid-row: 3;
     }
     footer{
@@ -134,29 +134,26 @@
         flex-flow: row;
         padding: 20px;
         display: grid;
-        grid-template-columns: 3;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 80% 20%;
     }
     img{
-        align-items: right;
         grid-column: 1;
         grid-row: 1;
         display: flex;
         flex-direction: row;
     }
     .contact{
-        align-items: left;
         grid-column: 2;
         grid-row: 1;
     }
     .contact2{
         align-items: center;
-        text-align: left;
         grid-column: 3;
         grid-row: 1;
     }
     .last-line{
-        grid-column: 1 span 4;
+        grid-column: 1/5;
         grid-row: 2 ;
         text-align: center;
         font-size: small;
