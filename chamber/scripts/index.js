@@ -24,3 +24,11 @@ document.querySelector('#year').textContent = yearnow;
 let oLastModif = new Date(document.lastModified);
 document.querySelector('#lastModified').textContent= oLastModif ;
 //modifycation date and time 
+
+// toggle menu for the hambuger menu
+
+function toggleMenu(){
+document.getElementById('primarynav').classList.toggle('open');
+}
+const x = document.getElementById('hambutton')
+x.onclick = toggleMenu;
