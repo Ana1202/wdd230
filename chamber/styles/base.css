@@ -202,13 +202,14 @@ footer img{
     padding: 10px;
 }
 
-.contact2{
-    color: white;
+.contact2 a {
+    text-decoration: none;
+    color: #FFB703;
 }
 
 .contact2 a:hover{
-    color: white;
     text-decoration: none;
+    color:aliceblue;
 }
 .last-line{
     display: flex;
