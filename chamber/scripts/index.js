@@ -29,6 +29,7 @@ document.querySelector('#lastModified').textContent= oLastModif ;
 
 function toggleMenu(){
 document.getElementById('primarynav').classList.toggle('open');
+document.getElementById('hambutton').classList.toggle('open');
 }
 const x = document.getElementById('hambutton')
 x.onclick = toggleMenu;

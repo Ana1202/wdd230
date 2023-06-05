@@ -15,7 +15,7 @@
         grid-template-rows: 80% 20%;
         border: 1px solid rgba(0,0,0,0.1);
     }
-    nav ul {
+    nav ul#primarynav {
         display: flex;
         flex-direction: row;
         margin-left: 2vw;
