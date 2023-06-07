@@ -22,3 +22,11 @@ const button = document.querySelector('button');
 
         input.focus();
       });
+
+function validateForm() {
+  var x = document.forms["favchap"]["input"].value;
+    if (x == "null") {
+      alert("Name must be filled out");
+    return false;
+        }
+      }
