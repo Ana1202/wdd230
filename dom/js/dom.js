@@ -2,10 +2,13 @@ const list = document.querySelector('ul');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
 
-  button.addEventListener('click', () => {
+  button.addEventListener('click', function(){
+        if(input.value.length === 0 ){
+          alert("Enter Book of Mormon Chapter");
+        }
+        else{
         const myItem = input.value;
-        input.value = '';
-
+        input.value = "";
         const listItem = document.createElement('li');
         const listText = document.createElement('span');
         const listBtn = document.createElement('button');
@@ -19,14 +22,8 @@ const button = document.querySelector('button');
         listBtn.addEventListener('click', () => {
           list.removeChild(listItem);
         });
-
+      }
         input.focus();
       });
-
-function validateForm() {
-  var x = document.forms["favchap"]["input"].value;
-    if (x == "null") {
-      alert("Name must be filled out");
-    return false;
-        }
-      }
+      
+    

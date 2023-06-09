@@ -57,18 +57,6 @@ li {
 	align-items: center;
 	justify-content: space-between;
 }
-#chapterError{
-	display: none;
-	font-size: 0.8em;
-}
-
-#chapterError.visible{
-	display: block;
-}
-
-input.invalid{
-	border-color: red;
-}
 
 @media only screen and (min-width: 32.5em) {
 	h1 {
