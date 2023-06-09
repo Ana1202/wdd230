@@ -22,6 +22,7 @@
         border-left: 1px solid rgba(0, 0, 0, 0.03);
         grid-column: 2;
     }
+   
     nav ul li a{
         border:none;
         border-right: 1px solid rgba(0, 0, 0,0.3);
@@ -39,6 +40,7 @@
         align-items: center;
         background-color: #FFB703;
     }
+
     .content { 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -46,7 +48,6 @@
     }
     .event{
         width: auto;
-        height: 250px;
         border-radius: 10px;
         background-color: #8ECAE6;
         padding: 1rem;
@@ -61,14 +62,16 @@
         background-color: #8ECAE6;
         padding: 1rem;
         margin: 0.5rem 0.5rem 0 0 ;
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 3;
+        grid-column-start: 2/4;
+        grid-row-start: 1/3;
     }
+    .evanstownpic {
+        width: 100%;
+        height: 100%;
+      }
+
     .spotlight{
         width: auto;
-        height: auto;
         border-radius: 10px;
         background-color: #8ECAE6;
         padding: 1rem;
@@ -97,7 +100,6 @@
     }
     .weather{
         width: auto;
-        height: 250px;
         border-radius: 10px;
         background-color: #8ECAE6;
         padding: 1rem;
@@ -107,7 +109,6 @@
     }
     .join{
         display: block;
-        width: 250px;
         height: auto;
         border-radius: 10px;
         background-color: #8ECAE6;
@@ -117,8 +118,6 @@
         grid-row: 3;
     }
     .news{
-        width: auto;
-        height: 250px;
         border-radius: 10px;
         background-color: #8ECAE6;
         padding: 1rem;
